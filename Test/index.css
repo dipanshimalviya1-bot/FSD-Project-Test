@@ -63,14 +63,6 @@ body{
     z-index: 100;
 }
 
-.logo-text p{
-
-    color:#d89c13;
-    top: 150px;
-    left: 200px;
-    z-index: 100;
-    font-size:18px;
-}
 
 .nav-headings {
     display: flex;
@@ -260,8 +252,6 @@ h4:hover {
     font-size:50px;
 }
 
-
-
 .about{
 
     display:flex;
@@ -276,8 +266,9 @@ h4:hover {
 
 .about-image{
 
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about-content{
@@ -297,6 +288,8 @@ h4:hover {
     height:4px;
     background:#d89c13;
     margin:20px 0 40px;
+    text-wrap: initial;
+    
 }
 
 .about-content p{
@@ -309,7 +302,7 @@ h4:hover {
 
 .hours-box{
 
-    margin-top:50px;
+    margin-top:20px;
     border:2px solid #d89c13;
     border-radius:15px;
     padding:30px;
@@ -321,7 +314,9 @@ h4:hover {
     font-size:40px;
     margin-bottom:20px;
 }
-
+.hours-box p{
+    color: orange;
+}
 
 .footer{
 
